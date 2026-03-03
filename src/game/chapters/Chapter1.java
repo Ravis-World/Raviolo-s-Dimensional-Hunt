@@ -1,11 +1,13 @@
 package game.chapters;
 
 import game.Main;
+import game.Input;
 
 public class Chapter1 {
 
     public static void startGame() {
-        Main.text("PROLOGUE - DIMENSIONAL TROUBLE\n");
+        // --- PROLOGUE (existing) ---
+        Main.text("Prologue: Dimensional Trouble\n");
 
         Main.text("The vault was open.");
         Main.text("Not broken.");
@@ -38,7 +40,7 @@ public class Chapter1 {
         Main.pause();
 
         Main.text("They emerged on Planet 51 Eridani.");
-        Main.text("Deep underground was the Hollow — a chamber of glowing crystal and stone.");
+        Main.text("Deep underground was the Hollow - a chamber of glowing crystal and stone.");
         Main.text("Roots twisted across the ceiling. Rings of light floated in the air.\n");
         Main.text("\"These are my trackers,\" the bunny said.");
         Main.text("\"Your rubies were stolen; I've tracked them into possible locations: somehow, dimensions you already control.\"");
@@ -54,8 +56,8 @@ public class Chapter1 {
         Main.pause();
 
         Main.text("\"Coincidental,\" someone whispered.");
-        // "Да, удобно." translates to "Yes, convenient."
-        Main.text("\"\u0414\u0430, \u0443\u0434\u043e\u0431\u043d\u043e,\" the bunny replied.");
+        // Translates to "Yes, convenient."
+        Main.text("\"Da, udobno,\" the bunny replied.");
         Main.text("\"I will grant you access to my Hollow.\"");
         Main.text("\"Use it as your hub.\"\n");
         Main.text("\"Each doorway leads to a world where the rubies were taken.\"");
@@ -68,8 +70,45 @@ public class Chapter1 {
         Main.text("Something listened.\n\n\n");
         Main.text("=== END OF PROLOGUE ===");
         Main.pause();
+        chapter1Start();
+    }
 
+        public static void chapter1Start() {
         Main.text("Chapter 1: The Ruby Robber");
-        // Actual chapter starts here...
+        Main.text("You step through the glowing portal and into the Red World — the tutorial dimension.");
+        Main.text("Everything here glows a deep crimson, from the ground beneath your feet to the jagged cliffs in the distance.");
+        Main.text("Even the air feels thick, tinged with a strange warmth and a faint hum that seems to resonate from the world itself.");
+        Main.pause();
+        
+        Main.text("The team fumbles behind you, whispering nervously.");
+        Main.text("Raviolo takes a deep breath, reminding everyone that there’s no time to gawk — the ruby hoard isn’t going to wait.");
+        Main.pause();
+        
+        Main.text("You glance at your surroundings: jagged rocks, glowing fungi, and streams of red mist curling through the canyons.");
+        Main.text("Nothing seems out of place… and yet, you feel that the ruby is hiding in plain sight.");
+        Main.pause();
+        
+        Main.text("The team approaches a junction in the terrain. Two obvious paths lie ahead:");
+        Main.text("One leads to a deep canyon, twisting and winding into darkness.");
+        Main.text("The other leads toward a grand building with angular walls and large windows — the Museum.");
+        Main.text("Despite being a tutorial world, you sense the ruby won’t be easy to find here.");
+        Main.pause();
+        
+        Main.text("It’s time to choose your path.");
+        Main.text("1. Venture into the Canyon");
+        Main.text("2. Head to the Museum");
+        Main.text("> ");
+        
+        String firstChoice = Input.scanner.nextLine().trim();
+        
+        if (firstChoice.equals("1")) {
+            RedCanyon.start();
+        } else if (firstChoice.equals("2")) {
+            RedMuseum.start();
+        } else {
+            Main.text("Invalid choice. The team hesitates. Let's try again.\n");
+            Main.pause();
+            chapter1Start(); // restart chapter for invalid input
+        }
     }
 }
