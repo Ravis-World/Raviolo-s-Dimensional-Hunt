@@ -46,7 +46,7 @@ public class MainMenu {
 
             if (chapters.isEmpty()) {
                 Main.text("No chapters found.");
-                pause();
+                Main.pause();
                 return;
             }
 
@@ -66,14 +66,15 @@ public class MainMenu {
             try {
                 int index = Integer.parseInt(choice) - 1;
                 if (index >= 0 && index < chapters.size()) {
+                    clearScreen();
                     runChapter(chapters.get(index));
                 } else {
                     Main.text("Invalid chapter number.");
-                    pause();
+                    Main.pause();
                 }
             } catch (NumberFormatException e) {
                 Main.text("Invalid input. Please enter a number or 'Q'.");
-                pause();
+                Main.pause();
             }
         }
     }
@@ -101,7 +102,7 @@ public class MainMenu {
             chapter.getMethod("startGame").invoke(null);
         } catch (Exception e) {
             Main.text("Error loading chapter: " + className + "\n" + e);
-            pause();
+            Main.pause();
         }
     }
 
@@ -114,11 +115,5 @@ public class MainMenu {
                 System.out.print("\033[H\033[2J");
             }
         } catch (Exception e) {}
-    }
-
-    /** Pause until user presses Enter */
-    private static void pause() {
-        Main.text("\nPress Enter...");
-        Input.scanner.nextLine();
     }
 }
