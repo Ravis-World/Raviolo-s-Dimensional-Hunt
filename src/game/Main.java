@@ -27,4 +27,13 @@ public class Main {
         Input.scanner.nextLine();
         clearScreen();
     }
+
+    // 💀 Alternate pause for death
+    public static void deathPause() {
+        text("");
+        text("=== YOU DIED ===");
+        text("");
+        text("Press Enter to return to checkpoint...");
+        Input.scanner.nextLine();
+    }
 }

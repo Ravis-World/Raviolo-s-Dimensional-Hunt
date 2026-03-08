@@ -3,7 +3,7 @@ package game.chapters;
 import game.Main;
 import game.Input;
 
-public class Chapter1 {
+public class RedStart {
 
     public static void startGame() {
         // --- PROLOGUE (existing) ---

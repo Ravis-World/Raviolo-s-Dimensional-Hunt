@@ -46,6 +46,7 @@ public class RedCanyon {
 
     // ===== PATH 1: ABOVE =====
     private static void upperPath() {
+        Main.clearScreen();
         Main.text("\nYou begin climbing the canyon wall.");
         Main.text("The rock is warm and gritty, glowing red beneath your hands.");
         Main.pause();
@@ -64,6 +65,7 @@ public class RedCanyon {
 
     // ===== PATH 2: INSIDE =====
     private static void innerPath() {
+        Main.clearScreen();
         Main.text("\nYou enter the canyon itself.");
         Main.text("The walls close in around you, the red light dimming into shadow.");
         Main.pause();
@@ -155,6 +157,7 @@ public class RedCanyon {
 
     // ===== CANYON TOP CLAYMINE =====
     private static void canyonTop() {
+        Main.clearScreen();
         Main.text("The team climbs higher and higher, until the canyon floor disappears beneath them.");
         Main.text("The red stone narrows into a wide plateau coated in dull, cracked clay.");
         Main.pause();
@@ -189,6 +192,7 @@ public class RedCanyon {
         } while (!choice.equals("1") && !choice.equals("2"));
 
         if (choice.equals("1")) {
+            Main.clearScreen();
             Main.text("Raviolo orders everyone to sit down slowly.");
             Main.text("One by one, they slip their boots off.");
             Main.text("The clay releases with wet, sucking sounds.");
@@ -200,8 +204,88 @@ public class RedCanyon {
             Main.text("\"By the power of plot, give us our shoes back.\"");
             Main.text("And so their shoes were given back and reset.");
             Main.pause();
+            Main.text("Raviolo looks over the group, making sure the mud is truly gone.");
+            Main.pause();
 
+            Main.text("His eyes stop on Stella's sandals.");
+            Main.text("\"Stella...\" he says slowly.");
+            Main.text("\"You should really consider ditching those gladiator sandal boots.\"");
+            Main.pause();
+
+            Main.text("\"What?\" Stella replies.");
+            Main.text("\"They're stylish.\"");
+            Main.pause();
+
+            Main.text("Raviolo sighs.");
+            Main.text("\"Stylish does not help when your feet get stuck in canyon traps.\"");
+            Main.text("\"You should switch to knee high reinforced rubber boots.\"");
+            Main.pause();
+
+            Main.text("Stella folds her arms.");
+            Main.text("\"Nope.\"");
+            Main.text("\"These sandals are staying.\"");
+            Main.pause();
+
+            Main.text("She steps forward confidently.");
+
+            Main.text("CLACK.");
+
+            Main.text("The heelbed of one sandal catches on a sharp boulder behind her.");
+            Main.pause();
+
+            Main.text("Stella keeps walking.");
+
+            Main.text("The sandal does not.");
+
+            Main.text("The leather straps stretch tight around her foot.");
+            Main.pause();
+
+            Main.text("She pulls harder.");
+
+            Main.text("RRRRRIIIIIP.");
+            Main.pause();
+
+            Main.text("The entire sole and footbed tear free from the straps.");
+
+            Main.text("The broken sole stays hooked on the rock.");
+            Main.text("The loose straps flop uselessly around Stella's foot.");
+            Main.pause();
+
+            Main.text("Stella freezes.");
+            Main.pause();
+
+            Main.text("She slowly looks down.");
+
+            Main.text("\"...\"");
+            Main.text("\"...\"");
+            Main.pause();
+
+            Main.text("Stella laughs nervously.");
+            Main.text("\"Heh.\"");
+            Main.text("\"Well.\"");
+            Main.text("\"That explains the sudden breeze.\"");
+            Main.pause();
+
+            Main.text("Raviolo groans loudly.");
+            Main.text("\"Stella.\"");
+            Main.pause();
+
+            Main.text("He raises his hand again.");
+            Main.text("A flash of magic surrounds her feet.");
+            Main.pause();
+
+            Main.text("When the light fades, a pair of knee high reinforced rubber boots replace the broken sandals.");
+            Main.pause();
+
+            Main.text("They are the exact shade of tan she loved from her sandal boots.");
+            Main.pause();
+
+            Main.text("Stella lifts one foot and examines the boot.");
+
+            Main.text("\"...Okay those are actually nice.\"");
+            Main.pause();
         } else {
+            Main.clearScreen();
             Main.text("Raviolo plants his hands firmly on the ground.");
             Main.text("\"On three - pull!\"");
             Main.pause();
@@ -262,6 +346,83 @@ public class RedCanyon {
             Main.text("And just like that, the mud vanishes.");
             Main.text("Their shoes reset to satisfactory levels.");
             Main.pause();
+            Main.text("Raviolo looks over the group, making sure the mud is truly gone.");
+            Main.pause();
+
+            Main.text("His eyes stop on Stella's sandals.");
+            Main.text("\"Stella...\" he says slowly.");
+            Main.text("\"You should really consider ditching those gladiator sandal boots.\"");
+            Main.pause();
+
+            Main.text("\"What?\" Stella replies.");
+            Main.text("\"They're stylish.\"");
+            Main.pause();
+
+            Main.text("Raviolo sighs.");
+            Main.text("\"Stylish does not help when your feet get stuck in canyon traps.\"");
+            Main.text("\"You should switch to knee high reinforced rubber boots.\"");
+            Main.pause();
+
+            Main.text("Stella folds her arms.");
+            Main.text("\"Nope.\"");
+            Main.text("\"These sandals are staying.\"");
+            Main.pause();
+
+            Main.text("She steps forward confidently.");
+
+            Main.text("CLACK.");
+
+            Main.text("The heelbed of one sandal catches on a sharp rock.");
+            Main.pause();
+
+            Main.text("Stella keeps walking.");
+
+            Main.text("The rock holds the sandal in place.");
+
+            Main.text("The leather straps stretch tight.");
+
+            Main.text("Stella pulls harder.");
+
+            Main.text("Rrrrrrrrip.");
+
+            Main.pause();
+
+            Main.text("Several straps tear loose from the sandal.");
+            Main.pause();
+
+            Main.text("Stella freezes.");
+            Main.pause();
+
+            Main.text("She slowly looks down at the damaged sandal.");
+
+            Main.text("\"...\"");
+            Main.text("\"...\"");
+            Main.pause();
+
+            Main.text("Stella laughs nervously.");
+            Main.text("\"Heh.\"");
+            Main.text("\"Well.\"");
+            Main.text("\"That explains the sudden breeze.\"");
+            Main.pause();
+
+            Main.text("Raviolo groans loudly.");
+            Main.text("\"Stella.\"");
+            Main.pause();
+
+            Main.text("He raises his hand again.");
+            Main.text("A flash of magic surrounds her feet.");
+            Main.pause();
+
+            Main.text("When the light fades, a pair of knee high reinforced rubber boots replace the broken sandals.");
+            Main.pause();
+
+            Main.text("They are the same shade of tan she loved from her sandal boots.");
+            Main.pause();
+
+            Main.text("Stella lifts one foot, inspecting the boot.");
+
+            Main.text("\"...Okay those are actually nice.\"");
+            Main.pause();
         }
 
         // Converge after claymine
@@ -270,18 +431,203 @@ public class RedCanyon {
 
     // ===== CONVERGENCE =====
     private static void converge() {
-        Main.text("\nThe team emerges from the canyon on the far side.");
-
-        Main.text("Diamond looks back. \"Whatever took the ruby passed through here.\"");
-        Main.text("Stella nods. \"We’re on the right trail.\"");
+        Main.clearScreen();
+        Main.text("The canyon widens as the team finally escapes the narrow passage.");
+        Main.text("The red sky becomes visible again above the cliffs.");
         Main.pause();
 
-        Main.text("Toad sighs in relief. \"Next time, can we search somewhere normal?\"");
-        Main.text("Toadette smirks. \"Define normal.\"");
+        Main.text("The wind moves quietly through the canyon.");
+        Main.text("For a moment, everything feels still.");
         Main.pause();
 
-        Main.text("Ai kneels and examines the dust.");
-        Main.text("\"There are marks here. Something heavy was dragged away.\"");
+        Main.text("Then something answers the wind.");
+        Main.pause();
+
+        Main.text("A low sound echoes through the canyon walls.");
+        Main.text("Not quite a growl.");
+        Main.text("Not quite breathing.");
+        Main.pause();
+
+        Main.text("Toad freezes.");
+        Main.text("\"...Did anyone else hear that?\"");
+        Main.pause();
+
+        Main.text("The sound comes again.");
+        Main.text("Closer this time.");
+        Main.pause();
+
+        Main.text("NNNNNNNNNGHHHHHHHHH...");
+        Main.text("A long, dragging noise, like something enormous pulling itself across stone.");
+        Main.pause();
+
+        Main.text("Ai slowly turns toward the darkness behind them.");
+        Main.text("\"Movement detected.\"");
+        Main.pause();
+
+        Main.text("Something shifts in the canyon shadows.");
+        Main.text("Too large to be a normal creature.");
+        Main.pause();
+
+        Main.text("A shape unfolds from the rock wall.");
+        Main.text("Limbs - too many of them - scraping against the canyon stone.");
+        Main.pause();
+
+        Main.text("SCRRRRRRRAAAAAAAPE.");
+        Main.text("The sound of claws grinding against rock fills the canyon.");
+        Main.pause();
+
+        Main.text("Two dim red lights open in the darkness.");
+        Main.text("Eyes.");
+        Main.pause();
+
+        Main.text("Toad whispers, \"Please tell me that's not looking at us.\"");
+        Main.pause();
+
+        Main.text("The creature inhales.");
+        Main.text("The sound echoes like wind rushing into a cave.");
+
+        Main.text("Then it SCREAMS.");
+
+        Main.text("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+
+        Main.pause();
+
+        Main.text("The team does not wait to find out what it is.");
+        Main.text("They run, but Raviolo doesn't.");
+        Main.pause();
+
+        Main.text("He points his finger up at the monster.");
+        Main.text("Waves of pure energy fill the area and confine to a single point.");
+
+        Main.text("Ai turns back.");
+        Main.text("\"Raviolo! What are you doing?!\"");
+
+        Main.text("\"Buying us time,\" Raviolo says.");
+
+        Main.pause();
+
+        Main.text("The creature crawls closer.");
+        Main.text("Claws scrape against the stone.");
+        Main.text("Its scream shakes the canyon walls.");
+
+        Main.pause();
+
+        Main.text("Raviolo compresses the energy further.");
+        Main.text("The power must be released NOW.");
+
+        Main.pause();
+
+        Main.text("Choose an energy blast:");
+        Main.text("1. Crimson Burst");
+        Main.text("2. Void Pulse");
+        Main.text("3. Prism Lock");
+        Main.text("4. Thunder Lance");
+        Main.text("> ");
+
+        String choice;
+
+        do {
+            choice = Input.scanner.nextLine().trim();
+
+            if (!choice.equals("1") && !choice.equals("2") && !choice.equals("3") && !choice.equals("4")) {
+                Main.text("The energy destabilises. Choose quickly!");
+                Main.text("> ");
+            }
+
+        } while (!choice.equals("1") && !choice.equals("2") && !choice.equals("3") && !choice.equals("4"));
+
+        if (choice.equals("3")) {
+
+            Main.text("Raviolo focuses the energy into a prism of blinding light.");
+            Main.text("San-ryō-kyō!");
+            Main.text("The blast strikes the creature.");
+            Main.pause();
+
+            Main.text("A cage of shifting colours erupts around it.");
+            Main.text("The monster thrashes against the light, claws scraping uselessly.");
+            Main.pause();
+
+            Main.text("Toad stares. \"It... it can't get out.\"");
+            Main.text("Raviolo lowers his hand. \"Not for a while.\"");
+            Main.pause();
+
+            Main.text("The team quickly escapes while the creature remains trapped.");
+            canyonEnding();
+        } else if (choice.equals("1")) {
+
+            Main.text("Raviolo fires a violent burst of crimson energy.");
+            Main.text("Mo-e-ru!");
+            Main.pause();
+
+            Main.text("The blast hits the creature.");
+            Main.text("For a moment it stops.");
+            Main.pause();
+
+            Main.text("Then the monster SCREAMS.");
+            Main.text("The red energy feeds it.");
+            Main.text("The creature lunges.");
+
+            Main.deathPause();
+            converge();
+        } else if (choice.equals("2")) {
+
+            Main.text("Raviolo compresses the energy into a dark sphere.");
+            Main.text("Pulsus Vacuus!");
+            Main.pause();
+
+            Main.text("The void pulse collapses inward...");
+            Main.text("Then violently implodes.");
+
+            Main.text("The backlash tears through the canyon.");
+
+            Main.deathPause();
+            converge();
+        } else if (choice.equals("4")) {
+
+            Main.text("A bolt of lightning erupts from Raviolo's hand.");
+            Main.text("Nayzeh-ye Ra'd!");
+            Main.pause();
+
+            Main.text("The creature absorbs the electricity.");
+            Main.text("Its eyes blaze brighter.");
+
+            Main.text("The canyon fills with a deafening roar.");
+
+            Main.deathPause();
+            converge();
+        }
+    }
+
+    private static void canyonEnding() {
+        Main.clearScreen();
+        Main.text("After the canyon's trials, the team finally steps onto a stable plateau.");
+        Main.text("The red light softens, the walls opening slightly to reveal the distant horizon.");
+        Main.pause();
+
+        Main.text("Toad shakes his head. \"That was… intense.\"");
+        Main.text("Ai sighs. \"I didn’t think we’d make it out without losing a boot—or a limb.\"");
+        Main.text("Diamond mutters: \"Next time, let’s avoid canyon detours.\"");
+        Main.pause();
+
+        Main.text("The plateau stretches before them, silent except for the distant echo of dripping water and the faint hum of the Red World.");
+        Main.text("Then something catches your eye—a small, folded piece of parchment wedged between two rocks.");
+        Main.pause();
+
+        Main.text("You pick it up and unfold it carefully.");
+        Main.text("The note reads:");
+        Main.text("\"The rubies aren’t as far as you think… but beware the shadows that walk alone.\"");
+        Main.text("It’s signed with a single symbol you don’t recognise yet:\n");
+        Main.text("\">\"");
+        Main.pause();
+
+        Main.text("Raviolo frowns, holding the note up to the light.");
+        Main.text("\"This is just the beginning…\" he mutters.");
+        Main.text("The canyon behind you is quiet now, but the path forward is unknown.");
+        Main.pause();
+
+        Main.text("You tuck the note safely away and look at the portal leading out of the Red Canyon.");
+        Main.text("The next dimension awaits.");
+        Main.text("\n=== END OF RED CANYON PATH ===");
         Main.pause();
     }
 }
