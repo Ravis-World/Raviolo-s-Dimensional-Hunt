@@ -16,7 +16,7 @@ public class RedCanyon {
         Main.pause();
 
         Main.text("Ai scans the terrain. \"Both routes are possible. Neither is safe.\"");
-        Main.text("Toadette sighs. \"Then let’s pick our poison.\"");
+        Main.text("Toadette sighs. \"Then let's pick our poison.\"");
         Main.pause();
 
         String choice;
@@ -163,15 +163,15 @@ public class RedCanyon {
         Main.pause();
 
         Main.text("Diamond steps forward - and suddenly freezes.");
-        Main.text("\"Uh... guys? I can’t lift my foot.\"");
+        Main.text("\"Uh... guys? I can't lift my foot.\"");
         Main.pause();
 
         Main.text("One by one, everyone realises their boots are sinking.");
         Main.text("The clay ripples like thick mud, gripping the soles with suction.");
         Main.pause();
 
-        Main.text("Stella groans. \"Of course it’s sticky. This world is always sticky.\"");
-        Main.text("Ai scans the ground. \"Guys, we are experts at this - if we panic, we’ll sink deeper.\"");
+        Main.text("Stella groans. \"Of course it's sticky. This world is always sticky.\"");
+        Main.text("Ai scans the ground. \"Guys, we are experts at this - if we panic, we'll sink deeper.\"");
         Main.pause();
 
         String choice;
@@ -372,28 +372,31 @@ public class RedCanyon {
 
             Main.text("CLACK.");
 
-            Main.text("The heelbed of one sandal catches on a sharp rock.");
+            Main.text("The heelbed of one sandal catches on a sharp boulder behind her.");
             Main.pause();
 
             Main.text("Stella keeps walking.");
 
-            Main.text("The rock holds the sandal in place.");
+            Main.text("The sandal does not.");
 
-            Main.text("The leather straps stretch tight.");
-
-            Main.text("Stella pulls harder.");
-
-            Main.text("Rrrrrrrrip.");
-
+            Main.text("The leather straps stretch tight around her foot.");
             Main.pause();
 
-            Main.text("Several straps tear loose from the sandal.");
+            Main.text("She pulls harder.");
+
+            Main.text("RRRRRIIIIIP.");
+            Main.pause();
+
+            Main.text("The entire sole and footbed tear free from the straps.");
+
+            Main.text("The broken sole stays hooked on the rock.");
+            Main.text("The loose straps flop uselessly around Stella's foot.");
             Main.pause();
 
             Main.text("Stella freezes.");
             Main.pause();
 
-            Main.text("She slowly looks down at the damaged sandal.");
+            Main.text("She slowly looks down.");
 
             Main.text("\"...\"");
             Main.text("\"...\"");
@@ -416,10 +419,10 @@ public class RedCanyon {
             Main.text("When the light fades, a pair of knee high reinforced rubber boots replace the broken sandals.");
             Main.pause();
 
-            Main.text("They are the same shade of tan she loved from her sandal boots.");
+            Main.text("They are the exact shade of tan she loved from her sandal boots.");
             Main.pause();
 
-            Main.text("Stella lifts one foot, inspecting the boot.");
+            Main.text("Stella lifts one foot and examines the boot.");
 
             Main.text("\"...Okay those are actually nice.\"");
             Main.pause();
@@ -518,7 +521,7 @@ public class RedCanyon {
         Main.pause();
 
         Main.text("Choose an energy blast:");
-        Main.text("1. Crimson Burst");
+        Main.text("1. Blazing Encore");
         Main.text("2. Void Pulse");
         Main.text("3. Prism Lock");
         Main.text("4. Thunder Lance");
@@ -537,7 +540,7 @@ public class RedCanyon {
         } while (!choice.equals("1") && !choice.equals("2") && !choice.equals("3") && !choice.equals("4"));
 
         if (choice.equals("3")) {
-
+            Main.clearScreen();
             Main.text("Raviolo focuses the energy into a prism of blinding light.");
             Main.text("San-ryō-kyō!");
             Main.text("The blast strikes the creature.");
@@ -554,7 +557,7 @@ public class RedCanyon {
             Main.text("The team quickly escapes while the creature remains trapped.");
             canyonEnding();
         } else if (choice.equals("1")) {
-
+            Main.clearScreen();
             Main.text("Raviolo fires a violent burst of crimson energy.");
             Main.text("Mo-e-ru!");
             Main.pause();
@@ -570,7 +573,7 @@ public class RedCanyon {
             Main.deathPause();
             converge();
         } else if (choice.equals("2")) {
-
+            Main.clearScreen();
             Main.text("Raviolo compresses the energy into a dark sphere.");
             Main.text("Pulsus Vacuus!");
             Main.pause();
@@ -583,7 +586,7 @@ public class RedCanyon {
             Main.deathPause();
             converge();
         } else if (choice.equals("4")) {
-
+            Main.clearScreen();
             Main.text("A bolt of lightning erupts from Raviolo's hand.");
             Main.text("Nayzeh-ye Ra'd!");
             Main.pause();
@@ -604,24 +607,24 @@ public class RedCanyon {
         Main.text("The red light softens, the walls opening slightly to reveal the distant horizon.");
         Main.pause();
 
-        Main.text("Toad shakes his head. \"That was… intense.\"");
-        Main.text("Ai sighs. \"I didn’t think we’d make it out without losing a boot—or a limb.\"");
-        Main.text("Diamond mutters: \"Next time, let’s avoid canyon detours.\"");
+        Main.text("Toad shakes his head. \"That was... intense.\"");
+        Main.text("Ai sighs. \"I didn't think we'd make it out without losing a boot-or a limb.\"");
+        Main.text("Diamond mutters: \"Next time, let's avoid canyon detours.\"");
         Main.pause();
 
         Main.text("The plateau stretches before them, silent except for the distant echo of dripping water and the faint hum of the Red World.");
-        Main.text("Then something catches your eye—a small, folded piece of parchment wedged between two rocks.");
+        Main.text("Then something catches your eye-a small, folded piece of parchment wedged between two rocks.");
         Main.pause();
 
         Main.text("You pick it up and unfold it carefully.");
         Main.text("The note reads:");
-        Main.text("\"The rubies aren’t as far as you think… but beware the shadows that walk alone.\"");
-        Main.text("It’s signed with a single symbol you don’t recognise yet:\n");
+        Main.text("\"The rubies aren't as far as you think... but beware the shadows that walk alone.\"");
+        Main.text("It's signed with a single symbol you don't recognise yet:\n");
         Main.text("\">\"");
         Main.pause();
 
         Main.text("Raviolo frowns, holding the note up to the light.");
-        Main.text("\"This is just the beginning…\" he mutters.");
+        Main.text("\"This is just the beginning...\" he mutters.");
         Main.text("The canyon behind you is quiet now, but the path forward is unknown.");
         Main.pause();
 
