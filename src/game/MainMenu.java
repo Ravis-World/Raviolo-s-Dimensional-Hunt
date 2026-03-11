@@ -52,15 +52,47 @@ public class MainMenu {
     /** Read chapters.txt and return {className, displayName} */
     private static ArrayList<String[]> getAvailableChapters() {
         ArrayList<String[]> list = new ArrayList<>();
-
-        File file = new File("chapters.txt");
-        if (!file.exists()) return list;
-
-        try (Scanner sc = new Scanner(file)) {
+    
+        // Try multiple external paths first
+        String[] paths = {
+            "src/chapters.txt",
+            "build/chapters.txt",
+            "chapters.txt"
+        };
+    
+        Scanner sc = null;
+        File externalFile = null;
+    
+        for (String path : paths) {
+            externalFile = new File(path);
+            if (externalFile.exists()) {
+                try {
+                    sc = new Scanner(externalFile);
+                    break;
+                } catch (Exception e) {
+                    // ignore and try next
+                }
+            }
+        }
+    
+        // If no external file found, try to load from inside the JAR
+        if (sc == null) {
+            InputStream in = MainMenu.class.getResourceAsStream("/chapters.txt");
+            if (in != null) {
+                sc = new Scanner(in);
+            } else {
+                Main.text("chapters.txt not found (external or embedded).");
+                Main.pause();
+                return list;
+            }
+        }
+    
+        // Read the chapters
+        try {
             while (sc.hasNextLine()) {
                 String line = sc.nextLine().trim();
                 if (line.isEmpty() || line.startsWith("#")) continue;
-
+    
                 String[] parts = line.split("=", 2);
                 if (parts.length == 2) {
                     String className = parts[0].trim();
@@ -69,10 +101,12 @@ public class MainMenu {
                 }
             }
         } catch (Exception e) {
-            Main.text("Failed to load chapters.txt");
+            Main.text("Failed to read chapters.txt: " + e.getMessage());
             Main.pause();
+        } finally {
+            if (sc != null) sc.close();
         }
-
+    
         return list;
     }
 

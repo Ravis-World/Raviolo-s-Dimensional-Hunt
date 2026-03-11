@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>true</dontWrapJar>
+  <headerType>console</headerType>
+  <jar>.\..\RaviolosDimensionalHunt.jar</jar>
+  <outfile>C:\Users\melan\OneDrive\Desktop\GitHub\GitHub Projects\Raviolo-s-Dimensional-Hunt\dist\RaviolosDimensionalHunt.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>true</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\melan\OneDrive\Desktop\GitHub\GitHub Projects\Raviolo-s-Dimensional-Hunt\assets\icon.ico</icon>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>17</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>v1.0.0</txtFileVersion>
+    <fileDescription>A branching horror adventure about tracking a ruby thief across dimensions.</fileDescription>
+    <copyright>Copyleft Ravi&apos;s World 2026-.</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>v1.0.0</txtProductVersion>
+    <productName>Raviolo&apos;s Dimensional Hunt</productName>
+    <companyName>Ravi&apos;s World</companyName>
+    <internalName>RaviolosDimensionalHunt</internalName>
+    <originalFilename>RaviolosDimensionalHunt.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_UK</language>
+  </versionInfo>
+</launch4jConfig>

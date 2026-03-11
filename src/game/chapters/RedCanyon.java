@@ -6,6 +6,7 @@ import game.Input;
 public class RedCanyon {
 
     public static void start() {
+        Main.clearScreen();
         Main.text("The team approaches the Red Canyon.");
         Main.text("Sheer crimson cliffs rise on both sides, glowing faintly under the strange red sky.");
         Main.pause();
@@ -284,7 +285,7 @@ public class RedCanyon {
 
             Main.text("\"...Okay those are actually nice.\"");
             Main.pause();
-        } else {
+        } else if (choice.equals("2")) {
             Main.clearScreen();
             Main.text("Raviolo plants his hands firmly on the ground.");
             Main.text("\"On three - pull!\"");
@@ -542,7 +543,7 @@ public class RedCanyon {
         if (choice.equals("3")) {
             Main.clearScreen();
             Main.text("Raviolo focuses the energy into a prism of blinding light.");
-            Main.text("San-ryō-kyō!");
+            Main.text("San-ryou-kyou!");
             Main.text("The blast strikes the creature.");
             Main.pause();
 

@@ -65,7 +65,7 @@ public class RedMuseum {
         } else if (choice.equals("3")) {
             Main.clearScreen();
             Main.text("Raviolo focuses on the guards, bending the light around them.");
-            Main.text("San-ryō-kyō!");
+            Main.text("San-ryou-kyou!");
             Main.text("The blast strikes the guards.");
             Main.pause();
 
@@ -285,6 +285,7 @@ public class RedMuseum {
     }
 
     public static void cleanSandalsAlt() {
+        Main.clearScreen();
         Main.text("You have successfully defeated the monster, but you still need to help Stella.");
         Main.text("\nYou pull out a pack of baby wipes.");
 
@@ -297,7 +298,7 @@ public class RedMuseum {
     }
 
     public static void fightMonster() {
-
+        Main.clearScreen();
         Main.text("\nThe monster lunges forward.");
         Main.pause();
 
@@ -323,6 +324,7 @@ public class RedMuseum {
         } while (!choice.equals("1") && !choice.equals("2") && !choice.equals("3") && !choice.equals("4"));
 
         if (choice.equals("1")) {
+            Main.clearScreen();
             Main.text("\nRaviolo raises his hand.");
 
             Main.text("Mo-e-ru!");
@@ -376,7 +378,7 @@ public class RedMuseum {
         } else if (choice.equals("3")) {
             Main.clearScreen();
             Main.text("Raviolo focuses the energy into a prism of blinding light.");
-            Main.text("San-ryō-kyō!");
+            Main.text("San-ryou-kyou!");
             Main.pause();
 
             Main.text("A burst of refracted light explodes outward.");
@@ -451,6 +453,7 @@ public class RedMuseum {
     }
 
     public static void fightMonsterAlt() {
+        Main.clearScreen();
         Main.text("\nThe monster lunges forward.");
         Main.pause();
 
@@ -474,70 +477,137 @@ public class RedMuseum {
     }
 
     public static void museumEnding() {
-
+        Main.clearScreen();
         Main.text("\nThe gallery slowly grows quiet.");
         Main.pause();
-    
+
         Main.text("Ash drifts through the air where the monster once stood.");
         Main.text("The thick slime coating the floor begins to dry and crack.");
         Main.pause();
-    
-        Main.text("Stella carefully lifts her sandal and inspects it.");
-        Main.text("\"Please tell me that thing is actually gone.\"");
+
+        Main.text("Stella carefully lifts her sandal again.");
+
+        Main.text("\"I am never stepping in museum slime again.\"");
         Main.pause();
-    
-        Main.text("Toad pokes the pile of ash with a stick.");
-        Main.text("\"Yep. Definitely gone.\"");
+
+        Main.text("She scrapes the sole against the stone floor.");
+
+        Main.text("\"It still feels gross.\"");
+        Main.text("\"Like it soaked into the leather.\"");
         Main.pause();
-    
+
+        Main.text("Raviolo watches her for a moment.");
+        Main.pause();
+
+        Main.text("\"Stella.\"");
+        Main.text("\"We need to talk about your sandals.\"");
+        Main.pause();
+
+        Main.text("Stella sighs loudly.");
+        Main.text("\"Oh no.\"");
+        Main.pause();
+
+        Main.text("\"They are perfectly fine,\" she says.");
+        Main.text("\"Stylish, breathable, flexible...\"");
+        Main.pause();
+
+        Main.text("Raviolo folds his arms.");
+        Main.text("\"They also absorb monster saliva.\"");
+        Main.pause();
+
+        Main.text("Stella grimaces.");
+
+        Main.text("\"...That is a very unfair argument.\"");
+        Main.pause();
+
+        Main.text("Diamond nods toward Stella's feet.");
+        Main.text("\"They really do have a lot of straps.\"");
+        Main.pause();
+
+        Main.text("Toad adds, \"And a lot of places for slime to hide.\"");
+        Main.pause();
+
+        Main.text("Stella groans.");
+
+        Main.text("\"Fine. Fine.\"");
+        Main.text("\"One time something disgusting happens and suddenly the sandals are the problem.\"");
+        Main.pause();
+
+        Main.text("Raviolo raises his hand.");
+
+        Main.text("\"Trust me. You will thank me later.\"");
+        Main.pause();
+
+        Main.text("A soft glow surrounds Stella's feet.");
+
+        Main.text("The worn gladiator sandals dissolve into threads of light.");
+        Main.pause();
+
+        Main.text("In their place, a pair of knee high reinforced rubber boots appear.");
+        Main.pause();
+
+        Main.text("The boots are the same tan colour Stella liked from her sandals.");
+        Main.pause();
+
+        Main.text("Stella lifts one foot and studies it.");
+
+        Main.text("\"...Okay.\"");
+        Main.text("\"Those are actually nice.\"");
+        Main.pause();
+
+        Main.text("She taps the sole against the floor.");
+
+        Main.text("\"Also much easier to clean.\"");
+        Main.pause();
+
         Main.text("Raviolo lowers his hand and exhales.");
         Main.text("\"That creature was guarding something.\"");
         Main.pause();
-    
+
         Main.text("Diamond looks around the gallery.");
         Main.text("Rows of museum displays stretch along the walls.");
         Main.text("Ancient artifacts glow under dim red lighting.");
         Main.pause();
-    
+
         Main.text("Ai suddenly points toward a display pedestal.");
         Main.text("\"There.\"");
         Main.pause();
-    
+
         Main.text("A small folded note rests where an artifact should be.");
         Main.pause();
-    
+
         Main.text("Raviolo walks over and carefully picks it up.");
         Main.pause();
-    
+
         Main.text("The paper feels old.");
         Main.text("Too old to belong in this museum.");
         Main.pause();
-    
+
         Main.text("He unfolds it.");
-    
+
         Main.text("\n\"The rubies are not lost.\"");
         Main.text("\"They are simply waiting.\"");
         Main.text("\"Follow the trail if you wish to see them again.\"");
         Main.pause();
-    
+
         Main.text("A strange symbol is written beneath the message: \">\".");
         Main.text("None of you recognise it.");
         Main.pause();
-    
+
         Main.text("Toad scratches his head.");
         Main.text("\"So the thief wants us to follow them?\"");
         Main.pause();
-    
+
         Main.text("Raviolo folds the note again.");
         Main.text("\"Looks like it.\"");
         Main.pause();
-    
-        Main.text("Stella sighs and wipes the last bits of slime from her sandal.");
+
+        Main.text("Stella sighs.");
         Main.text("\"Next time can the ruby hide somewhere normal?\"");
         Main.pause();
-    
+
         Main.text("The team leaves the gallery and heads back toward the portal.");
-    
+
         Main.text("\n=== END OF RED MUSEUM PATH ===");
         Main.pause();
     }

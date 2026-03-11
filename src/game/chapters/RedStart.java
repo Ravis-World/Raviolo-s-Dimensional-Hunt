@@ -75,6 +75,7 @@ public class RedStart {
     }
 
     public static void chapter1Start() {
+        Main.clearScreen();
         Main.text("Chapter 1: The Ruby Robber");
         Main.text("You step through the glowing portal and into the Red World - the tutorial dimension.");
         Main.text("Everything here glows a deep crimson, from the ground beneath your feet to the jagged cliffs in the distance.");
