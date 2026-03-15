@@ -96,3 +96,5 @@ Credits
 -------
 
 Developed and written by **Ravi's World**.
+
+Favicon made in ​**Canva**​.
