@@ -3,7 +3,7 @@
   <dontWrapJar>true</dontWrapJar>
   <headerType>console</headerType>
   <jar>.\..\RaviolosDimensionalHunt.jar</jar>
-  <outfile>C:\Users\melan\OneDrive\Desktop\GitHub\GitHub Projects\Raviolo-s-Dimensional-Hunt\dist\RaviolosDimensionalHunt.exe</outfile>
+  <outfile>.\dist\RaviolosDimensionalHunt.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>
