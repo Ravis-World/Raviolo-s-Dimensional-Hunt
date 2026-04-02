@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch4jConfig>
-  <dontWrapJar>true</dontWrapJar>
+  <dontWrapJar>false</dontWrapJar>
   <headerType>console</headerType>
-  <jar>.\..\RaviolosDimensionalHunt.jar</jar>
-  <outfile>.\dist\RaviolosDimensionalHunt.exe</outfile>
+  <jar>.\RaviolosDimensionalHunt.jar</jar>
+  <outfile>\RaviolosDimensionalHunt.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>
@@ -22,12 +22,12 @@
     <maxVersion></maxVersion>
   </jre>
   <versionInfo>
-    <fileVersion>1.0.0.0</fileVersion>
-    <txtFileVersion>v1.0.0</txtFileVersion>
+    <fileVersion>1.0.0.1</fileVersion>
+    <txtFileVersion>v1.0.01</txtFileVersion>
     <fileDescription>A branching horror adventure about tracking a ruby thief across dimensions.</fileDescription>
     <copyright>Copyleft Ravi&apos;s World 2026-.</copyright>
-    <productVersion>1.0.0.0</productVersion>
-    <txtProductVersion>v1.0.0</txtProductVersion>
+    <productVersion>1.0.0.1</productVersion>
+    <txtProductVersion>v1.0.01</txtProductVersion>
     <productName>Raviolo&apos;s Dimensional Hunt</productName>
     <companyName>Ravi&apos;s World</companyName>
     <internalName>RaviolosDimensionalHunt</internalName>
